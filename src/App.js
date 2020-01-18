@@ -12,6 +12,8 @@ import {
 } from "react-router-dom";
 import Navlist from './Components/Navlist'
 import Addstudent from './Components/AddStudent'
+import PieChart from './Components/PieChart';
+import Dashboard from './Components/Dashboard';
 
 function App() {
   return (
@@ -24,8 +26,9 @@ function App() {
           <Route exact path="/" component={StudentTable} />
           <Route exact path="/students/:studentId" component={StudentPage} />
           <Route exact path="/students/:studentId/edit" component={StudentEdit}/>
-          {/* <Route exact path="/add" component={Addstudent} /> */}
-        
+          <Route exact path="/add" component={Addstudent} />
+          
+          <Route exact path='/dashboard' component={Dashboard}></Route>
       </header>
       </Router>
     </div>

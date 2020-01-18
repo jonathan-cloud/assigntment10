@@ -1,0 +1,71 @@
+       {/* <h3>Editing: {this.state.first} {this.state.last}</h3>
+        <CardGroup className="magics">
+          {this.state.magics.map(magic=>(
+
+            <Card bg="dark" text="white">
+            <Card.Body>
+              <Card.Title>{magic.name}</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">Skill Level</Card.Subtitle>
+              <Card.Text>
+                <select value={magic.skill}>
+                  <option>0</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </Card.Text>
+            </Card.Body>
+            </Card>
+
+          ))}
+        </CardGroup> */}
+        
+        {/* <CardGroup className="desiredmagics">
+          {this.state.desired.map(magic=>(
+
+            <Card bg="dark" text="white">
+            <Card.Body>
+              <Card.Title>{magic.name}</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">Skill Level</Card.Subtitle>
+              <Card.Text>
+                <select value={magic.skill}>
+                  <option>0</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </Card.Text>
+            </Card.Body>
+            </Card>
+
+          ))}
+        </CardGroup> */}
+        {/* <table className="table table-dark">
+
+          <tbody>
+            <tr>
+              <th scope="row">Magic skills</th>
+              {this.state.magics.map(res => (
+                <td>{res.name}<br/>{res.skill}</td>           
+              ))}
+
+            </tr>
+            <tr>
+              <th scope="row">Desired Magic skills</th>
+              {this.state.desired.map(res => (
+                <td>{res.name}<br/>{res.skill}</td>           
+              ))}
+
+            </tr>
+            <tr>
+              <th scope="row">Courses</th>
+              {this.state.courses.map(res => (
+                <td>{res}</td>
+              ))}
+            </tr>
+          </tbody>
+        </table> */}
